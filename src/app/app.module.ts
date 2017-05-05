@@ -8,6 +8,7 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { DashboardSearchComponent } from './component/dashboard/dashboard-search/dashboard-search.component';
 import { FeedTripsComponent } from './component/dashboard/feed-trips/feed-trips.component';
 import { TrendingTripsComponent } from './component/dashboard/trending-trips/trending-trips.component';
+import { UserComponent } from './component/user/user.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TrendingTripsComponent } from './component/dashboard/trending-trips/tre
     DashboardComponent,
     DashboardSearchComponent,
     FeedTripsComponent,
-    TrendingTripsComponent
+    TrendingTripsComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
