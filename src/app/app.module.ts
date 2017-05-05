@@ -9,6 +9,7 @@ import { DashboardSearchComponent } from './component/dashboard/dashboard-search
 import { FeedTripsComponent } from './component/dashboard/feed-trips/feed-trips.component';
 import { TrendingTripsComponent } from './component/dashboard/trending-trips/trending-trips.component';
 import { UserComponent } from './component/user/user.component';
+import { TripsComponent } from './component/trips/trips.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { UserComponent } from './component/user/user.component';
     DashboardSearchComponent,
     FeedTripsComponent,
     TrendingTripsComponent,
-    UserComponent
+    UserComponent,
+    TripsComponent
   ],
   imports: [
     BrowserModule,
