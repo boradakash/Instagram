@@ -1,0 +1,23 @@
+.example-card {
+  width: 500px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.example-header-image {
+  background-size: cover;
+}
+
+
+.example-full-width {
+  width: 100%;
+}
+
+.app-cards{
+    padding-top: 20px;
+}
+.example-tooltip-host {
+  display: inline-flex;
+  align-items: center;
+  margin: 50px;
+}
